@@ -4,34 +4,34 @@
     "layout": "LAYOUT_split_3x6_3",
     "layers": [
         [
-            "KC_TAB",  "KC_Q",    "KC_W",    "KC_E",    "KC_R",    "KC_T",          "KC_Y",    "KC_U",    "KC_I",    "KC_O",    "KC_P",    "KC_BSPC",
-            "SC_LCPO", "KC_A",    "KC_S",    "KC_D",    "KC_F",    "KC_G",          "KC_H",    "KC_J",    "KC_K",    "KC_L",    "KC_SCLN", "KC_QUOT",
-            "KC_LSFT", "KC_Z",    "KC_X",    "KC_C",    "KC_V",    "KC_B",          "KC_N",    "KC_M",    "KC_COMM", "KC_DOT",  "KC_SLSH", "QK_GESC",
-                                             "KC_LGUI", "MO(1)",   "KC_SPC",        "KC_ENT",  "MO(2)",   "SC_RAPC"
+            "KC_TAB",  "KC_Q",    "KC_W",    "KC_E",    "KC_R",          "KC_T",          "KC_Y",    "KC_U",    "KC_I",    "KC_O",    "KC_P",    "KC_BSPC",
+            "SC_LCPO", "KC_A",    "KC_S",    "KC_D",    "KC_F",          "KC_G",          "KC_H",    "KC_J",    "KC_K",    "KC_L",    "KC_SCLN", "KC_QUOT",
+            "KC_LSFT", "KC_Z",    "KC_X",    "KC_C",    "KC_V",          "KC_B",          "KC_N",    "KC_M",    "KC_COMM", "KC_DOT",  "KC_SLSH", "QK_GESC",
+                                             "KC_LGUI", "LT(1,KC_LBRC)", "KC_SPC",        "KC_ENT",  "LT(2,KC_RBRC)",   "SC_RAPC"
         ],
         [
-            "MO(4)",   "KC_1",    "KC_2",    "KC_3",    "KC_4",    "KC_5",          "KC_6",    "KC_7",    "KC_8",    "KC_9",    "KC_0",    "_______",
+            "MO(3)",   "KC_1",    "KC_2",    "KC_3",    "KC_4",    "KC_5",          "KC_6",    "KC_7",    "KC_8",    "KC_9",    "KC_0",    "_______",
             "_______", "KC_EXLM", "KC_AT",   "KC_HASH", "KC_DLR",  "KC_PERC",       "KC_CIRC", "KC_AMPR", "KC_ASTR", "KC_LPRN", "KC_RPRN", "_______",
-            "_______", "KC_MINS", "KC_EQL",  "KC_UNDS", "KC_PLUS", "KC_GRV",        "_______", "KC_LBRC", "KC_RBRC", "KC_LCBR", "KC_RCBR", "_______",
+            "_______", "KC_MINS", "KC_EQL",  "KC_UNDS", "KC_PLUS", "KC_GRV",        "KC_LBRC", "KC_RBRC", "KC_LCBR", "KC_RCBR", "KC_BSLS", "_______",
                                              "_______", "_______", "_______",       "_______", "_______", "_______"
         ],
         [
-            "QK_BOOT", "_______", "KC_UP",   "_______", "KC_BRIU", "KC_VOLU",       "RGB_VAI", "RGB_HUI", "RGB_SAI", "RGB_MOD",  "RGB_TOG", "_______",
-            "EE_CLR",  "KC_LEFT", "KC_DOWN", "KC_RGHT", "KC_BRID", "KC_VOLD",       "RGB_VAD", "RGB_HUD", "RGB_SAD", "RGB_RMOD", "CK_TOGG", "_______",
-            "_______", "_______", "_______", "_______", "_______", "KC_MPLY",       "_______", "_______", "_______", "_______",  "_______", "_______",
-                                             "_______", "TG(3)",   "KC_MNXT",       "_______", "_______", "_______"
-        ],
-        [
-            "_______", "_______", "KC_UP",   "_______", "KC_BRIU", "KC_VOLU",       "RGB_VAI", "RGB_HUI", "RGB_SAI", "RGB_MOD",  "RGB_TOG", "_______",
-            "_______", "KC_LEFT", "KC_DOWN", "KC_RGHT", "KC_BRID", "KC_VOLD",       "RGB_VAD", "RGB_HUD", "RGB_SAD", "RGB_RMOD", "CK_TOGG", "_______",
-            "_______", "_______", "_______", "_______", "_______", "KC_MPLY",       "_______", "_______", "_______", "_______",  "_______", "_______",
-                                             "_______", "TG(3)",   "KC_MNXT",       "_______", "_______", "_______"
+            "LCAG(KC_TAB)", "_______", "KC_UP",   "_______", "KC_BRIU", "KC_VOLU",       "_______", "_______", "_______", "_______",  "_______", "EE_CLR",
+            "_______",      "KC_LEFT", "KC_DOWN", "KC_RGHT", "KC_BRID", "KC_VOLD",       "KC_LEFT", "KC_DOWN", "KC_UP",   "KC_RGHT",  "_______", "_______",
+            "_______",      "_______", "_______", "_______", "_______", "KC_MPLY",       "_______", "_______", "_______", "_______",  "_______", "QK_BOOT",
+                                                  "_______", "_______", "KC_MNXT",       "_______", "_______", "MO(4)"
         ],
         [
             "_______", "KC_F1",   "KC_F2",   "KC_F3",   "KC_F4",   "KC_F5",         "KC_F6",   "KC_F7",   "KC_F8",   "KC_F9",    "KC_F10",  "KC_F11",
             "_______", "_______", "_______", "_______", "_______", "_______",       "RGB_HUD", "RGB_SAD", "RGB_SAI", "RGB_HUI",  "RGB_RMOD","KC_F12",
             "_______", "_______", "_______", "_______", "_______", "_______",       "_______", "_______", "RGB_VAD", "RGB_VAI",  "RGB_MOD", "RGB_TOG",
                                              "_______", "_______", "_______",       "_______", "_______", "_______"
+        ],
+        [
+            "LCAG(KC_TAB)", "LCAG(KC_Q)", "LCAG(KC_W)", "LCAG(KC_E)", "LCAG(KC_R)", "LCAG(KC_T)",          "LCAG(KC_Y)",   "LCAG(KC_U)", "LCAG(KC_I)", "LCAG(KC_O)", "LCAG(KC_P)",    "_______",
+            "_______",      "LCAG(KC_A)", "LCAG(KC_S)", "LCAG(KC_D)", "LCAG(KC_F)", "LCAG(KC_G)",          "LCAG(KC_H)",   "LCAG(KC_J)", "LCAG(KC_K)", "LCAG(KC_L)", "LCAG(KC_SCLN)", "LCAG(KC_QUOT)",
+            "_______",      "LCAG(KC_Z)", "LCAG(KC_X)", "LCAG(KC_C)", "LCAG(KC_V)", "LCAG(KC_B)",          "LCAG(KC_N)",   "LCAG(KC_M)", "LCAG(KC_COMM)", "LCAG(KC_DOT)", "LCAG(KC_SLSH)", "LCAG(KC_ESC)",
+                                                        "_______",    "_______",    "LCAG(KC_SPC)",        "LCAG(KC_ENT)", "_______",      "_______"
         ]
     ]
 }
